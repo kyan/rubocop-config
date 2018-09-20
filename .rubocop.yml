@@ -33,3 +33,5 @@ Style/Documentation:
   Enabled: false
 Style/FormatStringToken:
   EnforcedStyle: unannotated
+Layout/MultilineMethodCallIndentation:
+  EnforcedStyle: indented
