@@ -1,0 +1,35 @@
+AllCops:
+  Include:
+  - '**/Rakefile'
+  - '**/config.ru'
+  Exclude:
+      - Gemfile
+      - Capfile
+      - Guardfile
+      - 'db/**/*'
+      - 'config/**/*'
+      - 'script/**/*'
+      - 'bin/**/*'
+      - 'vendor/**/*'
+      - 'tmp/**/*'
+      - 'spec/support/**/*'
+      - 'config/routes.rb'
+Metrics/AbcSize:
+  Max: 20
+Metrics/BlockLength:
+  Exclude:
+    - spec/**/*.rb
+Metrics/ClassLength:
+  Max: 200
+Metrics/LineLength:
+  Max: 80
+Style/Alias:
+  EnforcedStyle: prefer_alias
+Style/AndOr:
+  EnforcedStyle: conditionals
+Style/BlockComments:
+  Enabled: false
+Style/Documentation:
+  Enabled: false
+Style/FormatStringToken:
+  EnforcedStyle: unannotated
