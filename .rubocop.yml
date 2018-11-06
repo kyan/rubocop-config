@@ -1,19 +1,16 @@
 AllCops:
-  Include:
-  - '**/Rakefile'
-  - '**/config.ru'
   Exclude:
-      - Gemfile
-      - Capfile
-      - Guardfile
-      - 'db/**/*'
-      - 'config/**/*'
-      - 'script/**/*'
-      - 'bin/**/*'
-      - 'vendor/**/*'
-      - 'tmp/**/*'
-      - 'spec/support/**/*'
-      - 'config/routes.rb'
+    - Gemfile
+    - Capfile
+    - Guardfile
+    - 'db/**/*'
+    - 'config/**/*'
+    - 'script/**/*'
+    - 'bin/**/*'
+    - 'vendor/**/*'
+    - 'tmp/**/*'
+    - 'spec/support/**/*'
+    - 'config/routes.rb'
 Metrics/AbcSize:
   Max: 20
 Metrics/BlockLength:
